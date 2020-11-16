@@ -1,0 +1,32 @@
+.sidenav {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    opacity: 0.7;
+    transition: 0.5s;
+    border-radius: 3px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.links {
+    font-size: 30px;
+    color:whitesmoke;
+    font-family: 'Inter';
+    text-align: center;
+    font-weight: 600;
+}
+
+.links:hover {
+    font-weight: 800;
+    background-color:  #27ae60;
+    transition: background-color 0.5s;
+}
